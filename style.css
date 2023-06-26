@@ -1,0 +1,41 @@
+.nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(44, 42, 47);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid;
+}
+
+.nav1 li {
+    float: left;
+}
+
+.nav1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav1 li a:hover:not(.active){
+    background-color: rgb(89, 26, 237);
+}
+
+.active {
+    background-color: rgb(127, 80, 237);
+}
+
+ body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier', Courier, monospace;
+}
+
+.div1{
+    margin-top: 60px;
+}
